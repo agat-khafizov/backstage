@@ -1,0 +1,47 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: node-service-template
+  title: Node.js сервис с Helm, CI и Docs
+  description: Полноценный шаблон микросервиса
+spec:
+  owner: user:default/agat-khafizov
+  type: service
+
+  parameters:
+    - title: Настройки компонента
+      required:
+        - name
+      properties:
+        name:
+          type: string
+          title: Название компонента
+        description:
+          type: string
+          title: Описание
+
+  steps:
+    - id: fetch
+      name: Копирование шаблона
+      action: fetch:template
+      input:
+        url: ./skeleton
+        values:
+          name: ${{ parameters.name }}
+          description: ${{ parameters.description }}
+
+    - id: publish
+      name: Публикация в GitHub
+      action: publish:github
+      input:
+        repoUrl: github.com?repo=${{ parameters.name }}&owner=agat-khafizov
+        title: ${{ parameters.name }}
+        description: ${{ parameters.description }}
+        visibility: public
+
+    - id: register
+      name: Регистрация в Backstage
+      action: catalog:register
+      input:
+        repoContentsUrl: ${{ steps['publish'].output.repoContentsUrl }}
+        catalogInfoPath: /catalog-info.yaml
