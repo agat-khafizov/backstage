@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: app
-          image: ${{ github.repository }}/${{ values.name }}:latest
+          image: ${{ values.registry }}:${{ values.name }}:latest
           ports:
             - containerPort: 3000

@@ -19,6 +19,9 @@ spec:
         description:
           type: string
           title: Описание
+        registry:
+          type: string
+          title: Адрес реджистри
 
   steps:
     - id: fetch
