@@ -8,4 +8,5 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: agat-khafizov
+  owner: simple-team
+  system: simple-system

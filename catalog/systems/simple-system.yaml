@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: simple-system
+  description: Example application system
+spec:
+  owner: simple-team
