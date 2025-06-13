@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: simple-service
+  description: A simple test service to register in Backstage catalog.
+  annotations:
+    github.com/project-slug: agat-khafizov/backstage
+spec:
+  type: service
+  lifecycle: experimental
+  owner: agat-khafizov
