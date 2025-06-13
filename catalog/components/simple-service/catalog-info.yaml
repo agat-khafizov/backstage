@@ -4,7 +4,8 @@ metadata:
   name: simple-service
   description: A simple test service to register in Backstage catalog.
   annotations:
-    github.com/project-slug: agat-khafizov/backstage
+  github.com/project-slug: agat-khafizov/backstage
+  backstage.io/ci-url: https://github.com/agat-khafizov/backstage/actions
 spec:
   type: service
   lifecycle: experimental
