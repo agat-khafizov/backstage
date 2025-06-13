@@ -1,0 +1,44 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: simple-template
+  title: Шаблон микросервиса
+  description: Простой шаблон сервиса с документацией
+spec:
+  owner: user:default/agat-khafizov
+  type: service
+
+  parameters:
+    - title: Информация о компоненте
+      required:
+        - name
+      properties:
+        name:
+          type: string
+          title: Название сервиса
+          description: Название компонента и репозитория
+
+  steps:
+    - id: fetch
+      name: Получение шаблона
+      action: fetch:template
+      input:
+        url: ./skeleton
+        values:
+          name: ${{ parameters.name }}
+
+    - id: publish
+      name: Публикация в GitHub
+      action: publish:github
+      input:
+        repoUrl: github.com?repo=${{ parameters.name }}&owner=agat-khafizov
+        title: ${{ parameters.name }}
+        description: Сервис, сгенерированный через Backstage
+        visibility: public
+
+    - id: register
+      name: Регистрация в Catalog
+      action: catalog:register
+      input:
+        repoContentsUrl: ${{ steps['publish'].output.repoContentsUrl }}
+        catalogInfoPath: /catalog-info.yaml
