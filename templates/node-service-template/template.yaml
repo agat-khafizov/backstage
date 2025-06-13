@@ -32,6 +32,7 @@ spec:
         values:
           name: ${{ parameters.name }}
           description: ${{ parameters.description }}
+          registry: ${{ parameters.registry }}
 
     - id: publish
       name: Публикация в GitHub
@@ -40,6 +41,7 @@ spec:
         repoUrl: github.com?repo=${{ parameters.name }}&owner=agat-khafizov
         title: ${{ parameters.name }}
         description: ${{ parameters.description }}
+        registry: ${{ parameters.registry }}
         visibility: public
 
     - id: register
