@@ -1,67 +1,15 @@
 {
     "entries": [
       {
-        "key": "kubernetes",
-        "id": "kubernetes",
-        "title": "Kubernetes",
-        "quadrant": "infrastructure",
-        "description": "Контейнерный оркестратор, стандарт де-факто для развёртывания микросервисов.",
-        "timeline": [
-          {
-            "ringId": "adopt",
-            "date": "2022-01-01T00:00:00.000Z",
-            "description": "Успешно используется в продакшене"
-          }
-        ],
-        "links": [
-          { "title": "Документация", "url": "https://kubernetes.io/" }
-        ]
-      },
-      {
-        "key": "helm",
-        "id": "helm",
-        "title": "Helm",
-        "quadrant": "infrastructure",
-        "description": "Менеджер пакетов для Kubernetes.",
-        "timeline": [
-          {
-            "ringId": "adopt",
-            "date": "2022-05-15T00:00:00.000Z",
-            "description": "Используется в деплой-процессах"
-          }
-        ],
-        "links": [
-          { "title": "Helm Charts", "url": "https://helm.sh/" }
-        ]
-      },
-      {
-        "key": "terraform",
-        "id": "terraform",
-        "title": "Terraform",
-        "quadrant": "infrastructure",
-        "description": "Инструмент IaC для управления ресурсами в облаке.",
-        "timeline": [
-          {
-            "ringId": "trial",
-            "date": "2023-02-20T00:00:00.000Z",
-            "description": "Тестируем на новых проектах"
-          }
-        ],
-        "links": [
-          { "title": "Terraform Docs", "url": "https://www.terraform.io/" }
-        ]
-      },
-      {
-        "key": "bun",
-        "id": "bun",
-        "title": "Bun",
+        "key": "typescript",
+        "id": "typescript",
+        "title": "TypeScript",
         "quadrant": "languages",
-        "description": "Альтернатива Node.js, с акцентом на скорость выполнения.",
+        "description": "Статически типизированное надмножество JavaScript.",
         "timeline": [
           {
-            "ringId": "assess",
-            "date": "2024-03-12T00:00:00.000Z",
-            "description": "Оценка применимости в high-perf проектах"
+            "ringId": "adopt",
+            "date": "2023-01-01T00:00:00.000Z"
           }
         ]
       },
@@ -70,15 +18,38 @@
         "id": "rust",
         "title": "Rust",
         "quadrant": "languages",
-        "description": "Безопасный системный язык, всё чаще используется в CLI и WebAssembly.",
+        "description": "Системный язык с безопасной моделью памяти, используемый в CLI, WASM и системном программировании.",
         "timeline": [
           {
             "ringId": "trial",
-            "date": "2023-10-01T00:00:00.000Z"
+            "date": "2023-09-10T00:00:00.000Z"
           }
-        ],
-        "links": [
-          { "title": "Rust Lang", "url": "https://www.rust-lang.org/" }
+        ]
+      },
+      {
+        "key": "argo-cd",
+        "id": "argo-cd",
+        "title": "Argo CD",
+        "quadrant": "infrastructure",
+        "description": "GitOps-инструмент для автоматического деплоя Kubernetes.",
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2023-10-10T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "trunk-based-development",
+        "id": "trunk-based-development",
+        "title": "Trunk-based Development",
+        "quadrant": "process",
+        "description": "Команда работает в одном trunk/main ветвлении с feature flags.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2024-03-01T00:00:00.000Z"
+          }
         ]
       },
       {
@@ -86,7 +57,7 @@
         "id": "turborepo",
         "title": "Turborepo",
         "quadrant": "frameworks",
-        "description": "Инструмент управления монорепозиториями для фронтенда.",
+        "description": "Инструмент управления монорепозиториями в frontend-разработке.",
         "timeline": [
           {
             "ringId": "trial",
@@ -95,15 +66,15 @@
         ]
       },
       {
-        "key": "dagger",
-        "id": "dagger",
-        "title": "Dagger",
+        "key": "kubernetes",
+        "id": "kubernetes",
+        "title": "Kubernetes",
         "quadrant": "infrastructure",
-        "description": "CI/CD как код. Новый способ описания pipeline.",
+        "description": "Контейнерный оркестратор, стандарт де-факто.",
         "timeline": [
           {
-            "ringId": "assess",
-            "date": "2024-04-08T00:00:00.000Z"
+            "ringId": "adopt",
+            "date": "2022-01-01T00:00:00.000Z"
           }
         ]
       },
@@ -112,46 +83,79 @@
         "id": "pair-programming",
         "title": "Pair Programming",
         "quadrant": "process",
-        "description": "Метод совместной разработки, при котором два разработчика работают на одном компьютере.",
+        "description": "Два разработчика работают за одной машиной — один пишет, другой рецензирует.",
         "timeline": [
           {
             "ringId": "adopt",
             "date": "2022-03-12T00:00:00.000Z"
           }
         ]
+      },
+      {
+        "key": "terraform",
+        "id": "terraform",
+        "title": "Terraform",
+        "quadrant": "infrastructure",
+        "description": "Infrastructure as Code от HashiCorp.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2023-02-20T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "feature-flags",
+        "id": "feature-flags",
+        "title": "Feature Flags",
+        "quadrant": "process",
+        "description": "Контроль фич в рантайме без деплоя.",
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2024-01-05T00:00:00.000Z"
+          }
+        ]
       }
     ],
     "quadrants": [
-      { "id": "infrastructure", "name": "Infrastructure" },
-      { "id": "frameworks", "name": "Frameworks" },
-      { "id": "languages", "name": "Languages" },
-      { "id": "process", "name": "Process" }
+      {
+        "id": "languages",
+        "name": "Languages"
+      },
+      {
+        "id": "frameworks",
+        "name": "Frameworks"
+      },
+      {
+        "id": "infrastructure",
+        "name": "Infrastructure"
+      },
+      {
+        "id": "process",
+        "name": "Process"
+      }
     ],
     "rings": [
       {
         "id": "adopt",
         "name": "ADOPT",
-        "color": "#5BA300",
-        "description": "Проверенные технологии, рекомендуемые к активному использованию"
+        "color": "#5BA300"
       },
       {
         "id": "trial",
         "name": "TRIAL",
-        "color": "#009EB0",
-        "description": "Пробуем в проектах, прежде чем рекомендовать повсеместно"
+        "color": "#009EB0"
       },
       {
         "id": "assess",
         "name": "ASSESS",
-        "color": "#C7BA00",
-        "description": "Интересные технологии, которые пока оцениваются"
+        "color": "#C7BA00"
       },
       {
         "id": "hold",
         "name": "HOLD",
-        "color": "#E09B96",
-        "description": "Временно не рекомендуем"
+        "color": "#E09B96"
       }
     ]
   }
-  
