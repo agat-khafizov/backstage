@@ -5,11 +5,11 @@
         "id": "typescript",
         "title": "TypeScript",
         "quadrant": "languages",
-        "description": "Статически типизированное надмножество JavaScript.",
+        "description": "TypeScript — популярное решение в области languages.",
         "timeline": [
           {
-            "ringId": "adopt",
-            "date": "2023-01-01T00:00:00.000Z"
+            "ringId": "assess",
+            "date": "2025-01-29T00:00:00.000Z"
           }
         ]
       },
@@ -18,50 +18,310 @@
         "id": "rust",
         "title": "Rust",
         "quadrant": "languages",
-        "description": "Системный язык с безопасной моделью памяти, используемый в CLI, WASM и системном программировании.",
-        "timeline": [
-          {
-            "ringId": "trial",
-            "date": "2023-09-10T00:00:00.000Z"
-          }
-        ]
-      },
-      {
-        "key": "argo-cd",
-        "id": "argo-cd",
-        "title": "Argo CD",
-        "quadrant": "infrastructure",
-        "description": "GitOps-инструмент для автоматического деплоя Kubernetes.",
+        "description": "Rust — популярное решение в области languages.",
         "timeline": [
           {
             "ringId": "adopt",
-            "date": "2023-10-10T00:00:00.000Z"
+            "date": "2024-07-13T00:00:00.000Z"
           }
         ]
       },
       {
-        "key": "trunk-based-development",
-        "id": "trunk-based-development",
-        "title": "Trunk-based Development",
-        "quadrant": "process",
-        "description": "Команда работает в одном trunk/main ветвлении с feature flags.",
+        "key": "go",
+        "id": "go",
+        "title": "Go",
+        "quadrant": "languages",
+        "description": "Go — популярное решение в области languages.",
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2024-08-26T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "kotlin",
+        "id": "kotlin",
+        "title": "Kotlin",
+        "quadrant": "languages",
+        "description": "Kotlin — популярное решение в области languages.",
+        "timeline": [
+          {
+            "ringId": "assess",
+            "date": "2024-03-23T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "python",
+        "id": "python",
+        "title": "Python",
+        "quadrant": "languages",
+        "description": "Python — популярное решение в области languages.",
+        "timeline": [
+          {
+            "ringId": "hold",
+            "date": "2024-11-29T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "java",
+        "id": "java",
+        "title": "Java",
+        "quadrant": "languages",
+        "description": "Java — популярное решение в области languages.",
         "timeline": [
           {
             "ringId": "trial",
-            "date": "2024-03-01T00:00:00.000Z"
+            "date": "2023-11-16T00:00:00.000Z"
           }
         ]
       },
       {
-        "key": "turborepo",
-        "id": "turborepo",
-        "title": "Turborepo",
+        "key": "scala",
+        "id": "scala",
+        "title": "Scala",
+        "quadrant": "languages",
+        "description": "Scala — популярное решение в области languages.",
+        "timeline": [
+          {
+            "ringId": "assess",
+            "date": "2024-07-25T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "swift",
+        "id": "swift",
+        "title": "Swift",
+        "quadrant": "languages",
+        "description": "Swift — популярное решение в области languages.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2025-03-30T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "c#",
+        "id": "c#",
+        "title": "C#",
+        "quadrant": "languages",
+        "description": "C# — популярное решение в области languages.",
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2024-07-04T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "zig",
+        "id": "zig",
+        "title": "Zig",
+        "quadrant": "languages",
+        "description": "Zig — популярное решение в области languages.",
+        "timeline": [
+          {
+            "ringId": "hold",
+            "date": "2025-01-01T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "ruby",
+        "id": "ruby",
+        "title": "Ruby",
+        "quadrant": "languages",
+        "description": "Ruby — популярное решение в области languages.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2023-11-05T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "bash",
+        "id": "bash",
+        "title": "Bash",
+        "quadrant": "languages",
+        "description": "Bash — популярное решение в области languages.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2024-10-19T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "sql",
+        "id": "sql",
+        "title": "SQL",
+        "quadrant": "languages",
+        "description": "SQL — популярное решение в области languages.",
+        "timeline": [
+          {
+            "ringId": "assess",
+            "date": "2024-07-17T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "react",
+        "id": "react",
+        "title": "React",
         "quadrant": "frameworks",
-        "description": "Инструмент управления монорепозиториями в frontend-разработке.",
+        "description": "React — популярное решение в области frameworks.",
+        "timeline": [
+          {
+            "ringId": "hold",
+            "date": "2024-09-26T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "vue.js",
+        "id": "vue.js",
+        "title": "Vue.js",
+        "quadrant": "frameworks",
+        "description": "Vue.js — популярное решение в области frameworks.",
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2024-07-17T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "angular",
+        "id": "angular",
+        "title": "Angular",
+        "quadrant": "frameworks",
+        "description": "Angular — популярное решение в области frameworks.",
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2024-08-07T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "svelte",
+        "id": "svelte",
+        "title": "Svelte",
+        "quadrant": "frameworks",
+        "description": "Svelte — популярное решение в области frameworks.",
         "timeline": [
           {
             "ringId": "trial",
-            "date": "2024-01-10T00:00:00.000Z"
+            "date": "2025-04-16T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "next.js",
+        "id": "next.js",
+        "title": "Next.js",
+        "quadrant": "frameworks",
+        "description": "Next.js — популярное решение в области frameworks.",
+        "timeline": [
+          {
+            "ringId": "hold",
+            "date": "2024-07-22T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "astro",
+        "id": "astro",
+        "title": "Astro",
+        "quadrant": "frameworks",
+        "description": "Astro — популярное решение в области frameworks.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2024-03-21T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "django",
+        "id": "django",
+        "title": "Django",
+        "quadrant": "frameworks",
+        "description": "Django — популярное решение в области frameworks.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2023-12-28T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "express",
+        "id": "express",
+        "title": "Express",
+        "quadrant": "frameworks",
+        "description": "Express — популярное решение в области frameworks.",
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2025-05-10T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "fastify",
+        "id": "fastify",
+        "title": "Fastify",
+        "quadrant": "frameworks",
+        "description": "Fastify — популярное решение в области frameworks.",
+        "timeline": [
+          {
+            "ringId": "hold",
+            "date": "2023-12-10T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "nestjs",
+        "id": "nestjs",
+        "title": "NestJS",
+        "quadrant": "frameworks",
+        "description": "NestJS — популярное решение в области frameworks.",
+        "timeline": [
+          {
+            "ringId": "assess",
+            "date": "2023-10-29T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "spring-boot",
+        "id": "spring-boot",
+        "title": "Spring Boot",
+        "quadrant": "frameworks",
+        "description": "Spring Boot — популярное решение в области frameworks.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2024-03-19T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "laravel",
+        "id": "laravel",
+        "title": "Laravel",
+        "quadrant": "frameworks",
+        "description": "Laravel — популярное решение в области frameworks.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2025-01-01T00:00:00.000Z"
           }
         ]
       },
@@ -70,24 +330,37 @@
         "id": "kubernetes",
         "title": "Kubernetes",
         "quadrant": "infrastructure",
-        "description": "Контейнерный оркестратор, стандарт де-факто.",
+        "description": "Kubernetes — популярное решение в области infrastructure.",
         "timeline": [
           {
-            "ringId": "adopt",
-            "date": "2022-01-01T00:00:00.000Z"
+            "ringId": "assess",
+            "date": "2025-04-02T00:00:00.000Z"
           }
         ]
       },
       {
-        "key": "pair-programming",
-        "id": "pair-programming",
-        "title": "Pair Programming",
-        "quadrant": "process",
-        "description": "Два разработчика работают за одной машиной — один пишет, другой рецензирует.",
+        "key": "docker",
+        "id": "docker",
+        "title": "Docker",
+        "quadrant": "infrastructure",
+        "description": "Docker — популярное решение в области infrastructure.",
         "timeline": [
           {
-            "ringId": "adopt",
-            "date": "2022-03-12T00:00:00.000Z"
+            "ringId": "assess",
+            "date": "2024-06-25T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "helm",
+        "id": "helm",
+        "title": "Helm",
+        "quadrant": "infrastructure",
+        "description": "Helm — популярное решение в области infrastructure.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2025-01-02T00:00:00.000Z"
           }
         ]
       },
@@ -96,11 +369,193 @@
         "id": "terraform",
         "title": "Terraform",
         "quadrant": "infrastructure",
-        "description": "Infrastructure as Code от HashiCorp.",
+        "description": "Terraform — популярное решение в области infrastructure.",
+        "timeline": [
+          {
+            "ringId": "hold",
+            "date": "2024-06-24T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "ansible",
+        "id": "ansible",
+        "title": "Ansible",
+        "quadrant": "infrastructure",
+        "description": "Ansible — популярное решение в области infrastructure.",
+        "timeline": [
+          {
+            "ringId": "hold",
+            "date": "2024-02-25T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "argo-cd",
+        "id": "argo-cd",
+        "title": "Argo CD",
+        "quadrant": "infrastructure",
+        "description": "Argo CD — популярное решение в области infrastructure.",
+        "timeline": [
+          {
+            "ringId": "hold",
+            "date": "2024-02-22T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "vault",
+        "id": "vault",
+        "title": "Vault",
+        "quadrant": "infrastructure",
+        "description": "Vault — популярное решение в области infrastructure.",
+        "timeline": [
+          {
+            "ringId": "assess",
+            "date": "2023-10-28T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "nomad",
+        "id": "nomad",
+        "title": "Nomad",
+        "quadrant": "infrastructure",
+        "description": "Nomad — популярное решение в области infrastructure.",
         "timeline": [
           {
             "ringId": "trial",
-            "date": "2023-02-20T00:00:00.000Z"
+            "date": "2025-02-19T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "consul",
+        "id": "consul",
+        "title": "Consul",
+        "quadrant": "infrastructure",
+        "description": "Consul — популярное решение в области infrastructure.",
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2024-02-05T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "prometheus",
+        "id": "prometheus",
+        "title": "Prometheus",
+        "quadrant": "infrastructure",
+        "description": "Prometheus — популярное решение в области infrastructure.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2024-11-19T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "grafana",
+        "id": "grafana",
+        "title": "Grafana",
+        "quadrant": "infrastructure",
+        "description": "Grafana — популярное решение в области infrastructure.",
+        "timeline": [
+          {
+            "ringId": "assess",
+            "date": "2024-12-16T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "opentelemetry",
+        "id": "opentelemetry",
+        "title": "OpenTelemetry",
+        "quadrant": "infrastructure",
+        "description": "OpenTelemetry — популярное решение в области infrastructure.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2024-07-04T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "linkerd",
+        "id": "linkerd",
+        "title": "Linkerd",
+        "quadrant": "infrastructure",
+        "description": "Linkerd — популярное решение в области infrastructure.",
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2024-08-25T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "tdd",
+        "id": "tdd",
+        "title": "TDD",
+        "quadrant": "process",
+        "description": "TDD — популярное решение в области process.",
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2023-11-17T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "ci/cd",
+        "id": "ci/cd",
+        "title": "CI/CD",
+        "quadrant": "process",
+        "description": "CI/CD — популярное решение в области process.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2024-11-13T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "trunk-based-development",
+        "id": "trunk-based-development",
+        "title": "Trunk-based Development",
+        "quadrant": "process",
+        "description": "Trunk-based Development — популярное решение в области process.",
+        "timeline": [
+          {
+            "ringId": "assess",
+            "date": "2025-01-19T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "pair-programming",
+        "id": "pair-programming",
+        "title": "Pair Programming",
+        "quadrant": "process",
+        "description": "Pair Programming — популярное решение в области process.",
+        "timeline": [
+          {
+            "ringId": "hold",
+            "date": "2024-05-21T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "code-reviews",
+        "id": "code-reviews",
+        "title": "Code Reviews",
+        "quadrant": "process",
+        "description": "Code Reviews — популярное решение в области process.",
+        "timeline": [
+          {
+            "ringId": "assess",
+            "date": "2024-08-30T00:00:00.000Z"
           }
         ]
       },
@@ -109,11 +564,89 @@
         "id": "feature-flags",
         "title": "Feature Flags",
         "quadrant": "process",
-        "description": "Контроль фич в рантайме без деплоя.",
+        "description": "Feature Flags — популярное решение в области process.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2024-05-12T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "mob-programming",
+        "id": "mob-programming",
+        "title": "Mob Programming",
+        "quadrant": "process",
+        "description": "Mob Programming — популярное решение в области process.",
         "timeline": [
           {
             "ringId": "adopt",
-            "date": "2024-01-05T00:00:00.000Z"
+            "date": "2024-03-03T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "dora-metrics",
+        "id": "dora-metrics",
+        "title": "DORA Metrics",
+        "quadrant": "process",
+        "description": "DORA Metrics — популярное решение в области process.",
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2024-05-16T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "kanban",
+        "id": "kanban",
+        "title": "Kanban",
+        "quadrant": "process",
+        "description": "Kanban — популярное решение в области process.",
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2024-06-26T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "scrum",
+        "id": "scrum",
+        "title": "Scrum",
+        "quadrant": "process",
+        "description": "Scrum — популярное решение в области process.",
+        "timeline": [
+          {
+            "ringId": "hold",
+            "date": "2025-03-23T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "internal-docs",
+        "id": "internal-docs",
+        "title": "Internal Docs",
+        "quadrant": "process",
+        "description": "Internal Docs — популярное решение в области process.",
+        "timeline": [
+          {
+            "ringId": "assess",
+            "date": "2024-06-14T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "runbooks",
+        "id": "runbooks",
+        "title": "Runbooks",
+        "quadrant": "process",
+        "description": "Runbooks — популярное решение в области process.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2025-01-05T00:00:00.000Z"
           }
         ]
       }
