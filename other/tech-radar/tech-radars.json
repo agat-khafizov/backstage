@@ -1,0 +1,157 @@
+{
+    "entries": [
+      {
+        "key": "kubernetes",
+        "id": "kubernetes",
+        "title": "Kubernetes",
+        "quadrant": "infrastructure",
+        "description": "Контейнерный оркестратор, стандарт де-факто для развёртывания микросервисов.",
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2022-01-01T00:00:00.000Z",
+            "description": "Успешно используется в продакшене"
+          }
+        ],
+        "links": [
+          { "title": "Документация", "url": "https://kubernetes.io/" }
+        ]
+      },
+      {
+        "key": "helm",
+        "id": "helm",
+        "title": "Helm",
+        "quadrant": "infrastructure",
+        "description": "Менеджер пакетов для Kubernetes.",
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2022-05-15T00:00:00.000Z",
+            "description": "Используется в деплой-процессах"
+          }
+        ],
+        "links": [
+          { "title": "Helm Charts", "url": "https://helm.sh/" }
+        ]
+      },
+      {
+        "key": "terraform",
+        "id": "terraform",
+        "title": "Terraform",
+        "quadrant": "infrastructure",
+        "description": "Инструмент IaC для управления ресурсами в облаке.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2023-02-20T00:00:00.000Z",
+            "description": "Тестируем на новых проектах"
+          }
+        ],
+        "links": [
+          { "title": "Terraform Docs", "url": "https://www.terraform.io/" }
+        ]
+      },
+      {
+        "key": "bun",
+        "id": "bun",
+        "title": "Bun",
+        "quadrant": "languages",
+        "description": "Альтернатива Node.js, с акцентом на скорость выполнения.",
+        "timeline": [
+          {
+            "ringId": "assess",
+            "date": "2024-03-12T00:00:00.000Z",
+            "description": "Оценка применимости в high-perf проектах"
+          }
+        ]
+      },
+      {
+        "key": "rust",
+        "id": "rust",
+        "title": "Rust",
+        "quadrant": "languages",
+        "description": "Безопасный системный язык, всё чаще используется в CLI и WebAssembly.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2023-10-01T00:00:00.000Z"
+          }
+        ],
+        "links": [
+          { "title": "Rust Lang", "url": "https://www.rust-lang.org/" }
+        ]
+      },
+      {
+        "key": "turborepo",
+        "id": "turborepo",
+        "title": "Turborepo",
+        "quadrant": "frameworks",
+        "description": "Инструмент управления монорепозиториями для фронтенда.",
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2024-01-10T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "dagger",
+        "id": "dagger",
+        "title": "Dagger",
+        "quadrant": "infrastructure",
+        "description": "CI/CD как код. Новый способ описания pipeline.",
+        "timeline": [
+          {
+            "ringId": "assess",
+            "date": "2024-04-08T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "key": "pair-programming",
+        "id": "pair-programming",
+        "title": "Pair Programming",
+        "quadrant": "process",
+        "description": "Метод совместной разработки, при котором два разработчика работают на одном компьютере.",
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2022-03-12T00:00:00.000Z"
+          }
+        ]
+      }
+    ],
+    "quadrants": [
+      { "id": "infrastructure", "name": "Infrastructure" },
+      { "id": "frameworks", "name": "Frameworks" },
+      { "id": "languages", "name": "Languages" },
+      { "id": "process", "name": "Process" }
+    ],
+    "rings": [
+      {
+        "id": "adopt",
+        "name": "ADOPT",
+        "color": "#5BA300",
+        "description": "Проверенные технологии, рекомендуемые к активному использованию"
+      },
+      {
+        "id": "trial",
+        "name": "TRIAL",
+        "color": "#009EB0",
+        "description": "Пробуем в проектах, прежде чем рекомендовать повсеместно"
+      },
+      {
+        "id": "assess",
+        "name": "ASSESS",
+        "color": "#C7BA00",
+        "description": "Интересные технологии, которые пока оцениваются"
+      },
+      {
+        "id": "hold",
+        "name": "HOLD",
+        "color": "#E09B96",
+        "description": "Временно не рекомендуем"
+      }
+    ]
+  }
+  
